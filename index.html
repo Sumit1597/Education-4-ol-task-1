@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*
+article {
+  float: center;
+  padding: 40px;
+  width: auto;
+  background-color: #f1f1f1;
+ /* height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: lightskyblue;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #85C1E9;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.mid
+{
+  float: center;
+  padding: 5%;
+  background: white;
+}
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+body {
+font-family: poppins;
+margin: 0;
+display: grid;
+font-size: 14px;
+}
+
+.footer {
+display: flex;
+flex-flow: row wrap;
+padding: 10px;
+color: #fff;
+background-color: #85C1E9;
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+.l-footer {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+
+h2 {
+font-weight: 400;
+font-size: 15px;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.box a {
+color: #fff;
+padding-right: 10px;
+margin-right: 1.25em;
+}
+/*
+.h-box {
+column-count: 2;
+column-gap: 1.25em;
+}*/
+
+.b-footer {
+text-align: center;
+color: #fff;
+padding-top: 1px;
+}
+
+.l-footer p {
+padding-right: 20%;
+color: #fff;
+}   
+
+@media screen and (min-width: 100px) {
+.r-footer > * {
+flex: 1;
+}
+/*
+.features {
+flex-grow:;
+}*/
+.features2 a{
+color: #fff
+}
+
+.l-footer {
+flex: 1 0px;
+}
+
+.r-footer {
+flex: 2 0px;
+}
+}
+
+
+</style>
+</head>
+<body>
+
+<!Navigtion>
+<section>
+  <div class="topnav">
+
+    <a href="#about">About</a>
+  <a class="active" href="#home">create a acoount</a>
+  <a href="#news">login</a>
+  <a href="#about">Product</a>
+  <a href="#contact us">contact us</a>
+  
+</div>
+</section>
+<section>
+  <h2><img src="images\milky_logo.png" width="270" height="100" class="center"></h2>
+</section>
+
+<!mid body>
+<section >
+<div class="mid">  
+  
+</div>
+</section>
+
+<!contact us>
+
+<footer class="footer">
+<div class="l-footer">
+<h1>
+<img src="images\milky_logo.png" width="240" height="80"></h1>
+<p><h1><u>Reg. Office</u> :</h1> 
+
+<h3>Ganesh Foods
+Plot No. P - 12, M.I.D.C.,
+Ahmednagar Industrial Area,
+Ahmednagar - 414111
+Maharashtra, India
+</h3>
+</p>
+</div>
+<ul class="r-footer">
+<li>
+  <h3><u>Social</u></h3>
+<ul class="box">
+<li><a href="#" class="fa fa-facebook"></a></li>
+<li><a href="#" class="fa fa-instagram"></a></li>
+<li><a href="#" class="fa fa-twitter"></a></li>
+<li><a href="#" class="fa fa-youtube"></a></li>
+</ul>
+</li>
+<li class="features">
+  <h3><u>About us</u></h3>
+<ul class="box h-box">
+<li><a href="#">Our story</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Franchisee</a></li>
+
+</ul>
+</li>
+<li class="features2">
+  <h3><u>Legal</u></h3>
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Contract</a></li>
+</ul>
+</li>
+</ul>
+<center >
+  <a href="#" >
+    <img src="images\PlayStore.png" style="height: 50px; border-radius: 7px;">
+  </a>
+  <a href="#">
+    <img src="images\applestore.png" style="height: 50px; border-radius: 7px;">
+  </a>
+</center>
+<div class="b-footer">
+<p>
+All rights reserved by ©CompanyName 2020 </p>
+</div>
+</footer>
+
+
+</body>
+</html>
